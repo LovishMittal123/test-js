@@ -1,5 +1,7 @@
+//1st question
 let marks=45;
 marks>=90?console.log("A"):marks>=75 && marks<90?console.log('B'):marks>=50 && marks<75?console.log('C'):console.log('D');
+//2nd question
 var number=12345;
 var temp=0;
 var digit=0;
@@ -9,7 +11,7 @@ while(number!=0){
     number=Math.floor(number/10);
 }
 console.log(temp);
-
+//3rd question
 
 var number1=5;
 var power=3;
@@ -18,7 +20,7 @@ for(var i=1;i<=power;i++){
     ans*=number1;
 }
 console.log(ans);
-
+//4th question
 
 var str="ankush";
 var n=str.length;
@@ -33,18 +35,21 @@ for(let i=0;i<n;i++){
 }
 console.log(answer);
 
+//5th question
 var vowels="ananaya"
 var cnt=0;
 for(var i=0;i<vowels.length;i++){
     if(vowels[i]=='a' || vowels[i]=='e' || vowels[i]=='i' || vowels[i]=='o' || vowels[i]=='u'){
-        cnt++;
+        cnt=cnt+1;
     }
 }
 console.log(cnt);
+
+//6th question
 for(var i=5;i<=50;i+=5){
-    console.log(i);
-    
+    console.log(i);   
 }
+//7th question
 var even=0;
 var odd=0;
 let arr=[1,2,3,4,5,6,7,8,9,10]
@@ -61,6 +66,8 @@ let result={
 }
 console.log(result);
 
+//8th question
+
 var fizz=10;
 var buzz=20;
 var fizbuzz=250;
@@ -73,6 +80,7 @@ for(var i=buzz;i<=buzz*10;i+=buzz){
 if(fizbuzz%fizz==0 && fizbuzz%buzz==0)console.log(true);
     else console.log(false);
 
+//9th question
 var arr1=[1,2,2,3,3,3,3]
 var one=0;
 var two=0;
@@ -83,6 +91,8 @@ for(var i=0;i<arr1.length-1;i++){
    else if(arr1[i]==3)three++;
 }
 console.log(`{"1":${one},"2":${two},"3":${three}}`);
+
+//10 question
 var year=400;
 (year%4==0 && (year%100!=0 || year%400==0))?console.log(true):console.log(false);
 
